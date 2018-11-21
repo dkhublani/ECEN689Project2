@@ -1,7 +1,9 @@
 # ECEN 689 Project 2
 ---
-Obstacle detection through a Stereoscopic cameras' setup. Utilizing OpenCV, and written in Python.
+
+Obstacles' detection through a Stereoscopic cameras' setup. Utilizing OpenCV, and written in Python.
 We're using our own generated data.
+
 ---
 
 ### Team members:
