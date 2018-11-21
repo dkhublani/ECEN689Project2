@@ -10,16 +10,16 @@ Frames' sorting script file
 
 import cv2
 
-# 0 here specifies which camera is being used. 
-# For two cameras, use 0 and 1 for first and second cameras, respecitvely.
+# numbers in VideoCapture here specifies which camera is being used.
+# For two external cameras, 0 and 2 worked.
 
 def main():
     cap_1 = cv2.VideoCapture(0)
-    cap_2 =cv2.VideoCapture(0)  # Change 0 to 1 for 2-camera setup
+    cap_2 =cv2.VideoCapture(2)  
     FrameCount = 0
     
     while(True):
-  
+        print("number of generated frames: " + str(FrameCount))
         # Capturing frames from two cameras
         ret, frame_1 = cap_1.read()
         ret, frame_2 = cap_2.read()
@@ -39,24 +39,13 @@ def main():
         
         FrameCount += 1
         
-        if cv2.waitKey(1) & 0xFF == ord("q"):
+        if cv2.waitKey(10) & 0xFF == ord("q"):
             break
     
     # Releasing capture
     cap_1.release()
     cap_2.release()
     cv2.destroyAllWindows()
- 
-    
-    print("\n Number of generated frames: " + str(FrameCount))
 
 if __name__ == "__main__":
     main()
-    
-    
-    
-    
-    
-    
-    
-    
