@@ -13,3 +13,12 @@ We're using our own generated data.
 3) Khaled Nakhleh
 4) Venkata Pydimarri
 5) Zhiyang Ong
+
+
+---
+
+### What the cameras see - synchronized frames
+
+![alt text](https://github.com/khalednakhleh/ECEN689Project2/blob/master/camera_1/frame5.jpg "Frame 5 - camera 1")
+
+![alt text](https://github.com/khalednakhleh/ECEN689Project2/blob/master/camera_2/frame5.jpg "Frame 5 - camera 2")

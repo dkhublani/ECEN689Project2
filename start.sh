@@ -20,6 +20,7 @@ fi
 
 valid=0
 echo "Start capturing? [y/n]"
+
 while 
 [ $valid == 0 ]
 do 
@@ -37,5 +38,3 @@ no|NO|n|N|nope|NOPE)
             echo "type yes or no in any form";;
 esac
 done
-
-

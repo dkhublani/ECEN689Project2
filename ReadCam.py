@@ -15,7 +15,7 @@ import cv2
 
 def main():
     cap_1 = cv2.VideoCapture(0)
-    cap_2 =cv2.VideoCapture(2)  
+    cap_2 =cv2.VideoCapture(1)  
     FrameCount = 0
     
     while(True):
@@ -26,22 +26,21 @@ def main():
         
         # Graying frames
         
-        # gray_1 = cv2.cvtColor(frame_1, cv2.COLOR_BGR2GRAY)
-        # gray_2 = cv2.cvtColor(frame_2, cv2.COLOR_BGR2GRAY)
+        gray_1 = cv2.cvtColor(frame_1, cv2.COLOR_BGR2GRAY)
+        gray_2 = cv2.cvtColor(frame_2, cv2.COLOR_BGR2GRAY)
         
-        cv2.imwrite("camera_1/frame%d.jpg" % FrameCount, frame_1) 
-        cv2.imwrite("camera_2/frame%d.jpg" % FrameCount, frame_2) 
+        cv2.imwrite("camera_1/frame%d.jpg" % FrameCount, gray_1)
+        cv2.imwrite("camera_2/frame%d.jpg" % FrameCount, gray_2)
         
         # If we want a frame preview window
         
         #cv2.imshow('frame',gray_1)
-        # cv2.imshow('frame',gray_2)
+        #cv2.imshow('frame',gray_2)
         
         FrameCount += 1
         
         if cv2.waitKey(10) & 0xFF == ord("q"):
             break
-    
     # Releasing capture
     cap_1.release()
     cap_2.release()
