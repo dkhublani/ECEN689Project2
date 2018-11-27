@@ -13,7 +13,7 @@ import cv2
 # numbers in VideoCapture here specifies which camera is being used.
 # For two external cameras, 0 and 2 worked.
 
-def main():
+def capture(obstacle):
     cap_1 = cv2.VideoCapture(0)
     cap_2 =cv2.VideoCapture(1)  
     FrameCount = 0
@@ -29,10 +29,15 @@ def main():
         gray_1 = cv2.cvtColor(frame_1, cv2.COLOR_BGR2GRAY)
         gray_2 = cv2.cvtColor(frame_2, cv2.COLOR_BGR2GRAY)
         
-        cv2.imwrite("camera_1/frame%d.jpg" % FrameCount, gray_1)
-        cv2.imwrite("camera_2/frame%d.jpg" % FrameCount, gray_2)
+        if (obstacle == 1):
+            cv2.imwrite("obs_1/frame%d.jpg" % FrameCount, gray_1)
+            cv2.imwrite("obs_2/frame%d.jpg" % FrameCount, gray_2)
         
-        # If we want a frame preview window
+        else:
+            cv2.imwrite("no_obs_1/frame%d.jpg" % FrameCount, gray_1)
+            cv2.imwrite("no_obs_2/frame%d.jpg" % FrameCount, gray_2)
+        
+        # If we want a frame preview window, uncomment the following lines
         
         #cv2.imshow('frame',gray_1)
         #cv2.imshow('frame',gray_2)
@@ -45,6 +50,15 @@ def main():
     cap_1.release()
     cap_2.release()
     cv2.destroyAllWindows()
+    
+def main():
+
+    obstacle = input("For storing in the obstacles' directories press 1. For no obstacles, press anything: ")
+    capture(obstacle)
+
 
 if __name__ == "__main__":
     main()
+    
+    
+    
