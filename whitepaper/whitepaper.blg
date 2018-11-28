@@ -3,54 +3,44 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: whitepaper.aux
 The style file: plain.bst
 Database file #1: ./references/references.bib
-Warning--I didn't find a database entry for "Buduma2017"
-Warning--I didn't find a database entry for "Ketkar2017"
-Warning--I didn't find a database entry for "Pattanayak2017"
-Warning--I didn't find a database entry for "Goodfellow2016"
-Warning--I didn't find a database entry for "Wang2016"
-Warning--I didn't find a database entry for "Bengio2015"
-Warning--I didn't find a database entry for "Cho2014"
-Warning--I didn't find a database entry for "Goodfellow2014"
-Warning--I didn't find a database entry for "Ohlsson2011"
-You've used 0 entries,
+You've used 8 entries,
             2118 wiz_defined-function locations,
-            515 strings with 4212 characters,
-and the built_in function-call counts, 18 in all, are:
-= -- 0
-> -- 0
+            553 strings with 5848 characters,
+and the built_in function-call counts, 1988 in all, are:
+= -- 189
+> -- 84
 < -- 0
-+ -- 0
-- -- 0
-* -- 2
-:= -- 7
-add.period$ -- 0
-call.type$ -- 0
-change.case$ -- 0
++ -- 34
+- -- 26
+* -- 115
+:= -- 365
+add.period$ -- 24
+call.type$ -- 8
+change.case$ -- 30
 chr.to.int$ -- 0
-cite$ -- 0
-duplicate$ -- 0
-empty$ -- 1
-format.name$ -- 0
-if$ -- 1
+cite$ -- 8
+duplicate$ -- 89
+empty$ -- 166
+format.name$ -- 26
+if$ -- 406
 int.to.chr$ -- 0
-int.to.str$ -- 0
-missing$ -- 0
-newline$ -- 3
-num.names$ -- 0
-pop$ -- 0
+int.to.str$ -- 8
+missing$ -- 11
+newline$ -- 43
+num.names$ -- 16
+pop$ -- 46
 preamble$ -- 1
-purify$ -- 0
+purify$ -- 29
 quote$ -- 0
-skip$ -- 1
+skip$ -- 50
 stack$ -- 0
-substring$ -- 0
-swap$ -- 0
+substring$ -- 65
+swap$ -- 8
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 0
+type$ -- 22
 warning$ -- 0
-while$ -- 0
-width$ -- 0
-write$ -- 2
-(There were 9 warnings)
+while$ -- 18
+width$ -- 9
+write$ -- 92
