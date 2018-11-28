@@ -14,11 +14,10 @@ We're using our own generated data.
 4) Venkata Pydimarri
 5) Zhiyang Ong
 
-
 ---
 
-### What the cameras see - synchronized frames
+### Custom-built rover (built by Michael Bass)
 
-![alt text](https://github.com/khalednakhleh/ECEN689Project2/blob/master/camera_1/frame5.jpg "Frame 5 - camera 1")
+![alt text](https://github.com/khalednakhleh/ECEN689Project2/blob/master/assets/frame5.jpeg "Rover - top view")
 
-![alt text](https://github.com/khalednakhleh/ECEN689Project2/blob/master/camera_2/frame5.jpg "Frame 5 - camera 2")
+![alt text](https://github.com/khalednakhleh/ECEN689Project2/blob/master/assets/frame5.jpeg "Rover - front view")

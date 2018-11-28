@@ -16,7 +16,7 @@ description = "Capture and label gray images using a stereoscopic camera setup.\
 Images were captured using a custom-built rover."
 
 requirements = [
- "opencv=>3.4.2"]
+ "opencv>=3.4.2"]
 
 setup(
       name = __name__,
