@@ -42,15 +42,15 @@
 \begin{document}
 \title{White Paper on Obstacle Detection via a Stereoscopic Camera System, Using Deep Learning}
 \date{\today}
-\author{Zhiyang Ong\thanks{Email correspondence to: \href{mailto:ongz@acm.org}{\Email\ ongz@acm.org}}, Michael Bass, Khaled Nakhleh \thanks{Email correspondence to: \href{mailto:khaled.jkn@gmail.com}{\Email\ khaled.jkn@gmail.com}}, \\
-Drupad Khublani, and Venkata Pydimarri \\
+\author{Zhiyang Ong\thanks{Email correspondence to: \href{mailto:ongz@acm.org}{ongz@acm.org}}, Michael Bass\thanks{Email correspondence to: \href{mailto:baklava.akbar@falafel.palestine}{baklava.akbar@falafel.palestine}}, Khaled Nakhleh\thanks{Email correspondence to: \href{mailto:khaled.jkn@gmail.com}{khaled.jkn@gmail.com}}, \\
+Drupad Khublani\thanks{Email correspondence to: \href{mailto:dkhublani@tamu.edu}{dkhublani@tamu.edu}}, and Venkata Pydimarri\thanks{Email correspondence to: \href{mailto:lassi@barfi.in}{lassi@barfi.in}} \\
 Department of Electrical and Computer Engineering \\
 College of Engineering \\
 Texas A\&M University
 }
 %College of Engineering \\
 %Texas A\&M University
-%\author{Zhiyang Ong\thanks{Email correspondence to: \href{mailto:email-id@domain.url}{\Email\ email-id@domain.url}} and Michael Bass and Khaled Nakhleh and Drupad Khublani and Venkata Pydimarri\\
+%\author{Zhiyang Ong\thanks{Email correspondence to: \href{mailto:email-id@domain.url}{email-id@domain.url}} and Michael Bass and Khaled Nakhleh and Drupad Khublani and Venkata Pydimarri\\
 %Department of Electrical and Computer Engineering \\
 %College of Engineering \\
 %Texas A&M University
@@ -66,11 +66,39 @@ Texas A\&M University
 
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Section 1}
-\label{sec:mysection1}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\section{Section 1}
+%\label{sec:mysection1}
+%
+%There are a significant amount of references for helping people to learn \LaTeX \cite{Voss2011,vanDongen2012,Syropoulos2003,Raymond2004,Mittelbach2004,Lamport1994,Krishnan2003,Krantz2001,Kottwitz2011,Koranne2011,Kopka2004,Knuth1999,Hoenig1998,Higham1998,Haralambous2007,Griffiths1997,Gratzer2007,Goossens2007,Goossens1999,Goossens1997,Diller1999,Bindner2011,Berry2009,UITCambridge2011,Scharrer2011,Pakin2008,Cormen2010,Syropoulos2004,Hamalainen2006} and related information/technologies.
+%
 
-There are a significant amount of references for helping people to learn \LaTeX \cite{Voss2011,vanDongen2012,Syropoulos2003,Raymond2004,Mittelbach2004,Lamport1994,Krishnan2003,Krantz2001,Kottwitz2011,Koranne2011,Kopka2004,Knuth1999,Hoenig1998,Higham1998,Haralambous2007,Griffiths1997,Gratzer2007,Goossens2007,Goossens1999,Goossens1997,Diller1999,Bindner2011,Berry2009,UITCambridge2011,Scharrer2011,Pakin2008,Cormen2010,Syropoulos2004,Hamalainen2006} and related information/technologies.
+
+
+
+deep learning \cite{Buduma2017,Ketkar2017,Pattanayak2017,Goodfellow2016,Wang2016,Bengio2015,Cho2014,Goodfellow2014,Ohlsson2011}, via a convolution neural network (CNN).
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Work-Breakdown Structure and Project Status}
+\label{sec:WorkBreakdownStructureAndProjectStatus}
+
+The initial distribution of tasks and project status are described as follows: \vspace{-0.3cm}
+\begin{enumerate} \itemsep -4pt
+\item Michael Bass modified a robotic cyber-physical system to mount two video cameras and a laptop, so that 
+\item Khaled Nakhleh develop a {\it Python script} to sample greyscale images from video cameras mounted on the robotic cyber-physical system.
+\item Drupad Khublani and Venkata Pydimarri suggested some techniques, and will examine CNN-based techniques for detection of static and dynamic obstacles.
+\item Zhiyang Ong wrote the white paper.
+\end{enumerate}
+
+Moving forward, Khaled Nakhleh and Michael Bass will develop {\it Python} scripts for preprocessing of the greyscale images from the video cameras, for statistical analysis of the experimental data, and for visualizing experimental data so that we can obtain figures/plots to include in the final report. Drupad Khublani and Venkata Pydimarri will implement the {\it Python} scripts for deep learning, via a CNN, that will classify the sampled greyscale images into obstacle detected or no obstacle detected. Lastly, Zhiyang Ong would be in charge of writing the final report, with assistance from other team members.
+
+
+
 
 
 

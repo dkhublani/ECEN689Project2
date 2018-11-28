@@ -22,11 +22,11 @@
 #       Make targets for build automation with Make (using this Makefile).
 
 latex:
-		pdflatex		articolo
-		bibtex			articolo
-		pdflatex		articolo
-		bibtex			articolo
-		pdflatex		articolo
+		pdflatex		whitepaper
+		bibtex			whitepaper
+		pdflatex		whitepaper
+		bibtex			whitepaper
+		pdflatex		whitepaper
 
 
 
@@ -38,9 +38,3 @@ clean:
 	rm -rf *.nlo
 	rm -rf *.out
 	rm -rf *.synctex.gz
-
-
-
-
-
-
