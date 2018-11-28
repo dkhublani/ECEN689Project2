@@ -29,7 +29,7 @@ def capture(obstacle):
         gray_1 = cv2.cvtColor(frame_1, cv2.COLOR_BGR2GRAY)
         gray_2 = cv2.cvtColor(frame_2, cv2.COLOR_BGR2GRAY)
         
-        if (obstacle == 1):
+        if (obstacle.lower() == "y"):
             cv2.imwrite("obs_1/frame%d.jpg" % FrameCount, gray_1)
             cv2.imwrite("obs_2/frame%d.jpg" % FrameCount, gray_2)
         
@@ -53,12 +53,9 @@ def capture(obstacle):
     
 def main():
 
-    obstacle = input("For storing in the obstacles' directories press 1. For no obstacles, press anything: ")
+    obstacle = input("For storing in the obstacles' directories type 'y' or 'Y'. For no obstacles, type anything else: ")
     capture(obstacle)
-
 
 if __name__ == "__main__":
     main()
-    
-    
     

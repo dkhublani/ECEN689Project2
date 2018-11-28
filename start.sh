@@ -10,12 +10,12 @@ python ReadCam.py
 echo "Running:" $0
 
 
-if test -d "obs_1" && test -d "obs_2" && test -d "no_obs_1" && test -d "no_obs_2";
+if test -d "chair_1" && test -d "chair_2" && test -d "no_obs_1" && test -d "no_obs_2";
 then
 echo "All directories exist."
 else
 echo "Some or all directories don't exist. Creating them..."
-mkdir obs_1 obs_2 no_obs_1 no_obs_2
+mkdir chair_1 chair_2 no_obs_1 no_obs_2
 fi
 
 valid=0
