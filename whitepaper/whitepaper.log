@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  28 NOV 2018 11:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  28 NOV 2018 11:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -933,39 +933,44 @@ File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 59.
 
-<./pics/my_figure.pdf, id=22, 481.80785pt x 432.92204pt>
-File: ./pics/my_figure.pdf Graphic file (type pdf)
+<./pics/rover.pdf, id=22, 642.4pt x 482.80376pt>
+File: ./pics/rover.pdf Graphic file (type pdf)
+ <use ./pics/rover.pdf>
+Package pdftex.def Info: ./pics/rover.pdf used on input line 86.
+(pdftex.def)             Requested size: 144.2397pt x 108.405pt.
 
-<use ./pics/my_figure.pdf>
-Package pdftex.def Info: ./pics/my_figure.pdf used on input line 84.
-(pdftex.def)             Requested size: 120.6428pt x 108.405pt.
- [1
+[1
 
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./pics/
-my_figure.pdf>] (./whitepaper.bbl)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 165.
+rover.pdf>] (./whitepaper.bbl)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 167.
  [2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 165.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 167.
+ (./whitepaper.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 167.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 167.
 
-(./whitepaper.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 165.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 165.
-Package rerunfilecheck Info: File `whitepaper.out' has not changed.
-(rerunfilecheck)             Checksum: AF3A55DDC2332FB9970483FAD15EE199;77.
 
+Package rerunfilecheck Warning: File `whitepaper.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `whitepaper.out':
+(rerunfilecheck)             Before: AF3A55DDC2332FB9970483FAD15EE199;77
+(rerunfilecheck)             After:  5071DAE82F9B732F3A47500E9F7D9FED;130.
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 165.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 167.
  ) 
 Here is how much of TeX's memory you used:
- 8725 strings out of 493089
- 123365 string characters out of 6134842
+ 8727 strings out of 493089
+ 123378 string characters out of 6134842
  206197 words of memory out of 5000000
- 12013 multiletter control sequences out of 15000+600000
+ 12014 multiletter control sequences out of 15000+600000
  57335 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,11n,43p,1110b,354s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,11n,43p,1110b,331s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/
 texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}</usr/local/texlive/2015/
 texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2015/texmf-dist
@@ -974,10 +979,10 @@ texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2015/texmf-dist
 /lmr17.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmr7.pfb><
 /usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local
 /texlive/2015/texmf-dist/fonts/type1/public/lm/lmro12.pfb>
-Output written on whitepaper.pdf (2 pages, 245075 bytes).
+Output written on whitepaper.pdf (2 pages, 2506880 bytes).
 PDF statistics:
- 174 PDF objects out of 1000 (max. 8388607)
- 126 compressed objects within 2 object streams
- 18 named destinations out of 1000 (max. 500000)
+ 100 PDF objects out of 1000 (max. 8388607)
+ 84 compressed objects within 1 object stream
+ 19 named destinations out of 1000 (max. 500000)
  14 words of extra memory for PDF output out of 10000 (max. 10000000)
 
