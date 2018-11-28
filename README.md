@@ -18,6 +18,6 @@ We're using our own generated data.
 
 ### Custom-built rover (built by Michael Bass)
 
-![alt text](https://github.com/khalednakhleh/ECEN689Project2/blob/master/assets/frame5.jpeg "Rover - top view")
+![alt text](https://github.com/khalednakhleh/ECEN689Project2/blob/master/assets/image.jpeg "Rover - top view")
 
-![alt text](https://github.com/khalednakhleh/ECEN689Project2/blob/master/assets/frame5.jpeg "Rover - front view")
+![alt text](https://github.com/khalednakhleh/ECEN689Project2/blob/master/assets/image_2.jpeg "Rover - front view")
