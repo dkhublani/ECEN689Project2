@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{Bengio2015}
 Yoshua Bengio, Ian~J. Goodfellow, and Aaron Courville.
@@ -16,6 +16,12 @@ Kyunghyun Cho.
 \newblock {\em Foundations and Advances in Deep Learning}.
 \newblock PhD thesis, Aalto University, Otaniemi, Espoo, Greater Helsinki,
   Uusimaa, Finland, March 21 2014.
+
+\bibitem{Deshmukh2015}
+Sai~P. Deshmukh and A.~M. Deshpande.
+\newblock Detection of obstacles using stereo imaging.
+\newblock {\em International Journal of Computer Applications}, 131(14):37--42,
+  December 2015.
 
 \bibitem{Goodfellow2014}
 Ian Goodfellow.
@@ -39,6 +45,14 @@ Santanu Pattanayak.
 \newblock {\em Pro Deep Learning with {TensorFlow}: A Mathematical Approach to
   Advanced Artificial Intelligence in {Python}}.
 \newblock Apress Media, {LLC}, Berkeley, {CA}, 2017.
+
+\bibitem{Szegedy2016}
+Christian Szegedy, Vincent Vanhoucke, Sergey Ioffe, Jon Shlens, and Zbigniew
+  Wojna.
+\newblock Rethinking the inception architecture for computer vision.
+\newblock In {\em Proceedings of the $29^{th}$ {IEEE} Conference on Computer
+  Vision and Pattern Recognition ({CVPR} 2016)}, pages 2818--2826, Las Vegas,
+  {NV}, June 26 -- July 1 2016. {IEEE} Computer Society Press.
 
 \bibitem{Wang2016}
 Xiaogang Wang.
