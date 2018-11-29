@@ -28,6 +28,15 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %	File containing the LaTeX preamble.
 \input{./others/preamble_section}
+%\usepackage{caption, subcaption}
+%	\captionsetup[sub]{labelformat=simple}
+%	\renewcommand{\thesubfigure}{(\alph{subfigure})} % Style: 1(a), 1(b)
+\usepackage{subcaption} 
+
+
+
+
+
 
 
 
@@ -78,15 +87,40 @@ Texas A\&M University
 
 
 %We are enhancing a rover (see Figure \ref{fig:Isometricprojectionofthevideocameraenhancedrover}), or robotic cyber-physical system, to have stereoscopic vision, so that we can carry out data acquisition and binary classification of whether the rover has detected static or dynamic obstacles. To modify the rover, we mounted video cameras and a laptop to sample images from the video cameras, and perform real-time data acquisition by sampling greyscale images from the video cameras. Subsequently, our {\it Python} program will implement binary classifiers for the the aforementioned tasks. The classifiers will use deep learning \cite{Buduma2017,Ketkar2017,Pattanayak2017,Goodfellow2016,Wang2016,Bengio2015,Cho2014,Goodfellow2014}, specifically an inception-based convolution neural network (CNN). We plan to enhance the classifer by using one-shot obstacle recognition/detection.
-We are enhancing a rover (see Figure \ref{fig:Isometricprojectionofthevideocameraenhancedrover}) to have stereoscopic vision, so that we can carry out data acquisition and binary classification of whether the rover has detected static or dynamic obstacles. To modify the rover, we mounted video cameras and a laptop to sample images from the video cameras, and perform real-time data acquisition by sampling greyscale images from the video cameras. Subsequently, our {\it Python} program will implement binary classifiers for the the aforementioned tasks. The classifiers will use deep learning \cite{Buduma2017,Ketkar2017,Pattanayak2017,Goodfellow2016,Wang2016,Bengio2015,Cho2014,Goodfellow2014}, specifically an inception-based convolution neural network (CNN). We plan to enhance the classifer by using one-shot obstacle recognition/detection. {\Huge \bf Fix this description!!!}
+We are enhancing a rover (see Figure \ref{fig:rover}) to have stereoscopic vision \cite{Deshmukh2015}, so that we can carry out data acquisition and binary classification of whether the rover has detected static or dynamic obstacles. To modify the rover, we mounted video cameras and a laptop to sample images from the video cameras, and perform real-time data acquisition by sampling greyscale images from the video cameras. Subsequently, our {\it Python} program will implement binary classifiers for the the aforementioned tasks. The classifiers will use deep learning \cite{Buduma2017,Ketkar2017,Pattanayak2017,Goodfellow2016,Wang2016,Bengio2015,Cho2014,Goodfellow2014}, specifically an inception-based convolution neural network (CNN) architecture \cite{Szegedy2016}. We plan to enhance the classifer by using stereo matching, disparity map computation, and depth estimation. Figure \ref{fig:flow-dragram-for-obstacle-detection} \cite{Deshmukh2015}.
+
+
+%\begin{figure}[h]
+%\centering 
+%\includegraphics[height=1.5in]{./pics/rover}
+%\caption{Isometric projection of the video camera-enhanced rover}
+%\label{fig:Isometricprojectionofthevideocameraenhancedrover}
+%\end{figure}
 
 
 \begin{figure}[h]
-\centering 
-\includegraphics[height=1.5in]{./pics/rover}
-\caption{Isometric projection of the video camera-enhanced rover}
-\label{fig:Isometricprojectionofthevideocameraenhancedrover}
+\centering
+%	\begin{subfigure}[b]{0.9\linewidth}
+	\begin{subfigure}[b]{0.4\textwidth}
+	\centering
+	\includegraphics[height=1.5in]{./pics/rover}
+	%\caption{Photograph of the video camera-enhanced rover}
+	\caption{Photograph of the enhanced rover}
+	\label{fig:rover}
+	\end{subfigure}
+%	\begin{subfigure}[b]{0.9\linewidth}
+	\begin{subfigure}[b]{0.4\textwidth}
+	\centering
+	\includegraphics[height=1.5in]{./pics/flow-dragram-for-obstacle-detection}
+	\caption{``Flow dragram for obstacle detection'' \cite{Deshmukh2015}}
+	\label{fig:flow-dragram-for-obstacle-detection}
+	\end{subfigure}
 \end{figure}
+
+%https://tex.stackexchange.com/questions/83664/inserting-subfigures/83665#83665
+%http://blog.pengyifan.com/the-best-way-to-place-figures-side-by-side-in-latex/
+%https://en.wikibooks.org/wiki/LaTeX/Floats,_Figures_and_Captions
+
 
 
 We aim to perform obstacle detection for a rover traveling at a speed of 20 m/s. We aim to classify static obstacles 30 m away, so that the controller of the rover has time to manipulate the rover away from the obstacles. In addition, we aim to classify moving obstacles at speeds greater than 0.2 m/s. {\Huge \bf Fix this description!!!}
