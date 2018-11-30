@@ -1,4 +1,4 @@
-# macos aut-generated files
+# macos auto-generated files
 .DS_Store
 
 # comments' files
@@ -7,11 +7,13 @@ comments.txt
 # testing files
 testing.*
 
-# large images' folder
+# large images' folders
 
 bottles_1/
 bottles_2/
 chair_1/
 chair_2/
-no_obs1/
-no_obs2/
+no_obs_1/
+no_obs_2/
+obs_1/
+obs_2/
