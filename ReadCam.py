@@ -15,7 +15,7 @@ import cv2
 
 def capture(obstacle, Run):
     cap_1 = cv2.VideoCapture(0)
-    cap_2 =cv2.VideoCapture(1)  
+    cap_2 = cv2.VideoCapture(1)  
     FrameCount = 0
     
     while(True):
